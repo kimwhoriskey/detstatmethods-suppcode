@@ -36,7 +36,7 @@ rownames(fishDsCount) <- 1:nrow(fishDsCount)
 
 #########
 # Read in and dissolve the lake shapefile
-uunit <- readOGR(dsn="networkanalysis/.", layer='CWB_LAKES')
+uunit <- readOGR(dsn="shpfile/.", layer='kinbasket')
 uunitM <- gUnaryUnion(uunit)
 plot(uunitM)
 with(fishDsCount,points(x_plane,y_plane,cex=freq/10, col=rgb(1,0,0,0.4), pch=19))
