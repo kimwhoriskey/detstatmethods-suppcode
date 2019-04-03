@@ -3,6 +3,8 @@
 # Analyzing the bull trout dataset with a Gaussian Random Field. 
 # Author: Marie Auger-Méthé & Kim Whoriskey
 
+# Shapefile of Kinbasket Lake required for analysis, originally taken from the Freshwater Atlas Lakes dataset in the BC Data Catalogue:  https://catalogue.data.gov.bc.ca/dataset/freshwater-atlas-lakes
+# Shapefile licensed under Open Government License - British Columbia: https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc
 
 library(plyr)
 library(sp)
